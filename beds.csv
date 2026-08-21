@@ -1,0 +1,401 @@
+Bed_ID,Ward_Type,Status
+BED-1000,Oncology,Available
+BED-1001,Oncology,Available
+BED-1002,ICU,Available
+BED-1003,General Ward,Occupied
+BED-1004,Pediatric,Available
+BED-1005,Maternity,Available
+BED-1006,General Ward,Available
+BED-1007,Pediatric,Occupied
+BED-1008,Pediatric,Available
+BED-1009,Oncology,Occupied
+BED-1010,Maternity,Available
+BED-1011,Pediatric,Available
+BED-1012,Emergency,Available
+BED-1013,Emergency,Available
+BED-1014,Maternity,Available
+BED-1015,ICU,Available
+BED-1016,Emergency,Available
+BED-1017,General Ward,Occupied
+BED-1018,NICU,Occupied
+BED-1019,Pediatric,Available
+BED-1020,General Ward,Occupied
+BED-1021,Pediatric,Available
+BED-1022,Maternity,Available
+BED-1023,NICU,Occupied
+BED-1024,Pediatric,Occupied
+BED-1025,NICU,Occupied
+BED-1026,Oncology,Available
+BED-1027,Oncology,Available
+BED-1028,NICU,Under Maintenance
+BED-1029,Emergency,Available
+BED-1030,General Ward,Occupied
+BED-1031,Maternity,Occupied
+BED-1032,NICU,Available
+BED-1033,NICU,Available
+BED-1034,NICU,Occupied
+BED-1035,Oncology,Occupied
+BED-1036,Pediatric,Occupied
+BED-1037,Pediatric,Occupied
+BED-1038,ICU,Occupied
+BED-1039,NICU,Under Maintenance
+BED-1040,Oncology,Occupied
+BED-1041,ICU,Occupied
+BED-1042,Emergency,Occupied
+BED-1043,General Ward,Available
+BED-1044,General Ward,Occupied
+BED-1045,Maternity,Available
+BED-1046,ICU,Occupied
+BED-1047,Pediatric,Occupied
+BED-1048,NICU,Available
+BED-1049,Maternity,Occupied
+BED-1050,Oncology,Occupied
+BED-1051,NICU,Available
+BED-1052,Oncology,Occupied
+BED-1053,NICU,Occupied
+BED-1054,Maternity,Occupied
+BED-1055,Maternity,Occupied
+BED-1056,ICU,Occupied
+BED-1057,General Ward,Occupied
+BED-1058,Emergency,Available
+BED-1059,Oncology,Available
+BED-1060,Oncology,Occupied
+BED-1061,General Ward,Occupied
+BED-1062,Pediatric,Under Maintenance
+BED-1063,Pediatric,Available
+BED-1064,Pediatric,Occupied
+BED-1065,General Ward,Occupied
+BED-1066,General Ward,Occupied
+BED-1067,Pediatric,Occupied
+BED-1068,Emergency,Occupied
+BED-1069,General Ward,Available
+BED-1070,ICU,Occupied
+BED-1071,Oncology,Occupied
+BED-1072,NICU,Under Maintenance
+BED-1073,Emergency,Available
+BED-1074,General Ward,Occupied
+BED-1075,NICU,Occupied
+BED-1076,Pediatric,Occupied
+BED-1077,ICU,Occupied
+BED-1078,ICU,Occupied
+BED-1079,Emergency,Occupied
+BED-1080,General Ward,Occupied
+BED-1081,Maternity,Available
+BED-1082,NICU,Occupied
+BED-1083,Emergency,Occupied
+BED-1084,ICU,Available
+BED-1085,Pediatric,Occupied
+BED-1086,General Ward,Occupied
+BED-1087,Emergency,Available
+BED-1088,Emergency,Occupied
+BED-1089,ICU,Available
+BED-1090,Maternity,Occupied
+BED-1091,ICU,Available
+BED-1092,Emergency,Occupied
+BED-1093,ICU,Occupied
+BED-1094,Emergency,Occupied
+BED-1095,ICU,Occupied
+BED-1096,Maternity,Under Maintenance
+BED-1097,Oncology,Occupied
+BED-1098,Pediatric,Occupied
+BED-1099,ICU,Available
+BED-1100,NICU,Available
+BED-1101,Pediatric,Available
+BED-1102,ICU,Available
+BED-1103,Oncology,Occupied
+BED-1104,ICU,Available
+BED-1105,General Ward,Occupied
+BED-1106,General Ward,Occupied
+BED-1107,NICU,Occupied
+BED-1108,ICU,Occupied
+BED-1109,Oncology,Occupied
+BED-1110,Pediatric,Occupied
+BED-1111,ICU,Occupied
+BED-1112,Emergency,Occupied
+BED-1113,General Ward,Available
+BED-1114,Maternity,Occupied
+BED-1115,Maternity,Occupied
+BED-1116,Oncology,Available
+BED-1117,Oncology,Under Maintenance
+BED-1118,General Ward,Available
+BED-1119,Oncology,Available
+BED-1120,Emergency,Available
+BED-1121,ICU,Available
+BED-1122,Maternity,Available
+BED-1123,ICU,Available
+BED-1124,ICU,Occupied
+BED-1125,General Ward,Occupied
+BED-1126,Emergency,Occupied
+BED-1127,General Ward,Available
+BED-1128,Pediatric,Occupied
+BED-1129,General Ward,Occupied
+BED-1130,Emergency,Available
+BED-1131,Maternity,Occupied
+BED-1132,ICU,Occupied
+BED-1133,General Ward,Available
+BED-1134,General Ward,Under Maintenance
+BED-1135,NICU,Occupied
+BED-1136,Emergency,Occupied
+BED-1137,Maternity,Occupied
+BED-1138,Oncology,Under Maintenance
+BED-1139,Pediatric,Occupied
+BED-1140,Maternity,Available
+BED-1141,NICU,Available
+BED-1142,General Ward,Occupied
+BED-1143,Pediatric,Available
+BED-1144,NICU,Available
+BED-1145,Pediatric,Occupied
+BED-1146,Emergency,Occupied
+BED-1147,General Ward,Under Maintenance
+BED-1148,General Ward,Occupied
+BED-1149,General Ward,Occupied
+BED-1150,Oncology,Occupied
+BED-1151,Maternity,Available
+BED-1152,Pediatric,Available
+BED-1153,Pediatric,Available
+BED-1154,General Ward,Occupied
+BED-1155,Pediatric,Occupied
+BED-1156,NICU,Occupied
+BED-1157,ICU,Occupied
+BED-1158,NICU,Available
+BED-1159,Maternity,Available
+BED-1160,Oncology,Available
+BED-1161,NICU,Occupied
+BED-1162,General Ward,Available
+BED-1163,Pediatric,Under Maintenance
+BED-1164,General Ward,Available
+BED-1165,ICU,Occupied
+BED-1166,ICU,Occupied
+BED-1167,General Ward,Occupied
+BED-1168,NICU,Available
+BED-1169,Maternity,Occupied
+BED-1170,Oncology,Available
+BED-1171,Emergency,Occupied
+BED-1172,General Ward,Occupied
+BED-1173,Pediatric,Available
+BED-1174,Oncology,Available
+BED-1175,ICU,Available
+BED-1176,General Ward,Occupied
+BED-1177,ICU,Available
+BED-1178,Pediatric,Available
+BED-1179,NICU,Available
+BED-1180,Oncology,Occupied
+BED-1181,Pediatric,Occupied
+BED-1182,Emergency,Available
+BED-1183,Oncology,Occupied
+BED-1184,NICU,Available
+BED-1185,NICU,Occupied
+BED-1186,Oncology,Under Maintenance
+BED-1187,ICU,Occupied
+BED-1188,Pediatric,Occupied
+BED-1189,Pediatric,Available
+BED-1190,General Ward,Occupied
+BED-1191,Oncology,Occupied
+BED-1192,Pediatric,Available
+BED-1193,NICU,Occupied
+BED-1194,ICU,Occupied
+BED-1195,General Ward,Available
+BED-1196,Emergency,Under Maintenance
+BED-1197,General Ward,Occupied
+BED-1198,ICU,Occupied
+BED-1199,Oncology,Available
+BED-1200,Emergency,Occupied
+BED-1201,Emergency,Occupied
+BED-1202,Pediatric,Occupied
+BED-1203,ICU,Occupied
+BED-1204,Emergency,Occupied
+BED-1205,Maternity,Available
+BED-1206,Oncology,Occupied
+BED-1207,Emergency,Occupied
+BED-1208,Emergency,Occupied
+BED-1209,Oncology,Occupied
+BED-1210,NICU,Available
+BED-1211,Oncology,Available
+BED-1212,Emergency,Available
+BED-1213,Maternity,Available
+BED-1214,Emergency,Occupied
+BED-1215,NICU,Available
+BED-1216,Emergency,Occupied
+BED-1217,ICU,Available
+BED-1218,ICU,Occupied
+BED-1219,NICU,Occupied
+BED-1220,Emergency,Available
+BED-1221,Oncology,Occupied
+BED-1222,Oncology,Under Maintenance
+BED-1223,Pediatric,Available
+BED-1224,General Ward,Available
+BED-1225,NICU,Available
+BED-1226,NICU,Available
+BED-1227,Pediatric,Occupied
+BED-1228,Oncology,Occupied
+BED-1229,Maternity,Occupied
+BED-1230,Pediatric,Available
+BED-1231,Pediatric,Available
+BED-1232,General Ward,Occupied
+BED-1233,General Ward,Occupied
+BED-1234,Emergency,Occupied
+BED-1235,Oncology,Occupied
+BED-1236,Oncology,Occupied
+BED-1237,NICU,Occupied
+BED-1238,Oncology,Occupied
+BED-1239,Pediatric,Available
+BED-1240,Emergency,Available
+BED-1241,NICU,Occupied
+BED-1242,Oncology,Occupied
+BED-1243,Maternity,Occupied
+BED-1244,Pediatric,Available
+BED-1245,Maternity,Occupied
+BED-1246,Maternity,Occupied
+BED-1247,ICU,Occupied
+BED-1248,NICU,Occupied
+BED-1249,Emergency,Available
+BED-1250,NICU,Available
+BED-1251,Emergency,Occupied
+BED-1252,Oncology,Available
+BED-1253,Maternity,Occupied
+BED-1254,ICU,Occupied
+BED-1255,Emergency,Occupied
+BED-1256,Emergency,Occupied
+BED-1257,Oncology,Available
+BED-1258,Pediatric,Occupied
+BED-1259,Pediatric,Available
+BED-1260,Emergency,Under Maintenance
+BED-1261,ICU,Occupied
+BED-1262,ICU,Occupied
+BED-1263,ICU,Available
+BED-1264,ICU,Under Maintenance
+BED-1265,Pediatric,Occupied
+BED-1266,General Ward,Occupied
+BED-1267,Oncology,Occupied
+BED-1268,Oncology,Occupied
+BED-1269,Maternity,Occupied
+BED-1270,ICU,Occupied
+BED-1271,General Ward,Occupied
+BED-1272,Emergency,Occupied
+BED-1273,General Ward,Occupied
+BED-1274,ICU,Available
+BED-1275,Oncology,Occupied
+BED-1276,General Ward,Occupied
+BED-1277,Emergency,Available
+BED-1278,ICU,Occupied
+BED-1279,Oncology,Occupied
+BED-1280,Pediatric,Occupied
+BED-1281,Emergency,Occupied
+BED-1282,Pediatric,Occupied
+BED-1283,Pediatric,Occupied
+BED-1284,Pediatric,Occupied
+BED-1285,ICU,Occupied
+BED-1286,Maternity,Occupied
+BED-1287,Emergency,Available
+BED-1288,Oncology,Available
+BED-1289,Emergency,Occupied
+BED-1290,Oncology,Available
+BED-1291,Maternity,Available
+BED-1292,NICU,Available
+BED-1293,NICU,Available
+BED-1294,Pediatric,Available
+BED-1295,ICU,Available
+BED-1296,Oncology,Available
+BED-1297,ICU,Available
+BED-1298,Maternity,Available
+BED-1299,Maternity,Occupied
+BED-1300,ICU,Occupied
+BED-1301,Maternity,Occupied
+BED-1302,Pediatric,Occupied
+BED-1303,General Ward,Occupied
+BED-1304,Emergency,Occupied
+BED-1305,Maternity,Available
+BED-1306,NICU,Available
+BED-1307,Maternity,Occupied
+BED-1308,Emergency,Occupied
+BED-1309,Oncology,Occupied
+BED-1310,Emergency,Occupied
+BED-1311,ICU,Occupied
+BED-1312,NICU,Occupied
+BED-1313,General Ward,Occupied
+BED-1314,Oncology,Occupied
+BED-1315,Maternity,Occupied
+BED-1316,Emergency,Occupied
+BED-1317,ICU,Under Maintenance
+BED-1318,Pediatric,Available
+BED-1319,Maternity,Occupied
+BED-1320,Oncology,Available
+BED-1321,Oncology,Occupied
+BED-1322,Emergency,Occupied
+BED-1323,General Ward,Available
+BED-1324,NICU,Available
+BED-1325,NICU,Available
+BED-1326,Maternity,Available
+BED-1327,Emergency,Occupied
+BED-1328,Emergency,Available
+BED-1329,General Ward,Occupied
+BED-1330,General Ward,Under Maintenance
+BED-1331,NICU,Available
+BED-1332,General Ward,Occupied
+BED-1333,Oncology,Available
+BED-1334,General Ward,Occupied
+BED-1335,ICU,Occupied
+BED-1336,Pediatric,Available
+BED-1337,ICU,Occupied
+BED-1338,General Ward,Occupied
+BED-1339,ICU,Occupied
+BED-1340,NICU,Occupied
+BED-1341,ICU,Occupied
+BED-1342,Oncology,Occupied
+BED-1343,Emergency,Occupied
+BED-1344,NICU,Available
+BED-1345,General Ward,Occupied
+BED-1346,Pediatric,Occupied
+BED-1347,Maternity,Occupied
+BED-1348,Oncology,Available
+BED-1349,Pediatric,Occupied
+BED-1350,Oncology,Available
+BED-1351,Oncology,Occupied
+BED-1352,Emergency,Occupied
+BED-1353,Emergency,Available
+BED-1354,Pediatric,Occupied
+BED-1355,NICU,Occupied
+BED-1356,Oncology,Occupied
+BED-1357,Pediatric,Occupied
+BED-1358,General Ward,Occupied
+BED-1359,Emergency,Occupied
+BED-1360,Maternity,Under Maintenance
+BED-1361,Oncology,Occupied
+BED-1362,Maternity,Occupied
+BED-1363,Maternity,Available
+BED-1364,Pediatric,Under Maintenance
+BED-1365,NICU,Occupied
+BED-1366,Pediatric,Occupied
+BED-1367,Maternity,Occupied
+BED-1368,Oncology,Occupied
+BED-1369,NICU,Occupied
+BED-1370,Emergency,Occupied
+BED-1371,NICU,Occupied
+BED-1372,ICU,Occupied
+BED-1373,Pediatric,Occupied
+BED-1374,Maternity,Available
+BED-1375,Maternity,Occupied
+BED-1376,ICU,Occupied
+BED-1377,NICU,Occupied
+BED-1378,NICU,Available
+BED-1379,Pediatric,Occupied
+BED-1380,NICU,Occupied
+BED-1381,Pediatric,Occupied
+BED-1382,General Ward,Available
+BED-1383,Maternity,Occupied
+BED-1384,Emergency,Available
+BED-1385,Maternity,Occupied
+BED-1386,Maternity,Occupied
+BED-1387,General Ward,Available
+BED-1388,ICU,Occupied
+BED-1389,ICU,Available
+BED-1390,Pediatric,Occupied
+BED-1391,Pediatric,Occupied
+BED-1392,Maternity,Under Maintenance
+BED-1393,Pediatric,Available
+BED-1394,Oncology,Occupied
+BED-1395,NICU,Available
+BED-1396,General Ward,Occupied
+BED-1397,NICU,Available
+BED-1398,Pediatric,Under Maintenance
+BED-1399,Oncology,Available
