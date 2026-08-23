@@ -6,7 +6,7 @@
 ![Gemini](https://img.shields.io/badge/Google_Gemini-3.5_Flash-orange)
 ![Exasol](https://img.shields.io/badge/Database-Exasol-green)
 
-An enterprise-grade, AI-driven hospital triage system designed to optimize patient intake, automate ward allocation, and ensure strict clinical governance. Built for the *Exasol AI Building Challenge (AI for Safety, Governance & Healthcare)*.
+An AI-driven hospital triage system designed to optimize patient intake, automate ward allocation, and ensure strict clinical governance. Built for the *Exasol AI Building Challenge (AI for Safety, Governance & Healthcare)*.
 
 ## 🏆 Trust, Safety & Governance Features
 In high-stakes medical environments, AI cannot be a black box, and database transactions cannot fail silently. This system is fortified with deterministic guardrails:
