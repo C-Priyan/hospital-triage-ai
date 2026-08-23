@@ -8,6 +8,30 @@
 
 An AI-driven hospital triage system designed to optimize patient intake, automate ward allocation, and ensure strict clinical governance. Built for the *Exasol AI Building Challenge (AI for Safety, Governance & Healthcare)*.
 
+## 🎥 Demo Video & Pitch Deck
+* **Demo Video:** [(https://drive.google.com/file/d/12hPd89b7SwhHMzk7Qhnp54_9CqZADtqm/view?usp=drive_link)]
+
+---
+
+## 🚨 The Problem
+In high-stakes medical environments, emergency intake bottlenecks can cost lives. While AI can accelerate triage, deploying pure LLMs in healthcare introduces severe risks:
+1. **The "Black Box" Risk:** AI hallucinations or misclassifications can send critical patients to the wrong ward.
+2. **System Outages:** If cloud AI services experience downtime during an emergency, hospital intake cannot simply freeze and wait for the network.
+3. **Data Integrity:** Concurrent hospital admissions can cause race conditions, resulting in "phantom patients" or double-booked beds if the database lacks strict governance.
+
+## 💡 The Solution
+Hospital Triage AI acts as a **governed AI copilot** for intake nurses. It uses Google Gemini to analyze patient symptoms and recommend wards, but wraps the AI in a strict layer of **deterministic clinical guardrails**. 
+* High-acuity patients are identified instantly.
+* Bed availability is mathematically verified before any patient is registered.
+* If the AI fails, the system safely degrades to deterministic rules rather than halting care.
+
+## 🗄️ How Exasol is Used
+Exasol serves as the high-performance, in-memory transactional backbone ensuring clinical data integrity:
+* **Live Inventory Governance:** Before a patient is registered, the app queries Exasol to guarantee bed availability. If the ward is full, Exasol blocks the transaction, preventing "ghost" database entries.
+* **Double Admission Blocker:** SQL constraints instantly check if a patient ID is already occupying a bed, rejecting duplicate admissions.
+* **Immutable Audit Trail:** Every admission and discharge triggers an `UPDATE` in Exasol with a precise, randomized-to-live timestamp (`Admission_Time`) for flawless compliance reporting.
+* **Rapid Lookups:** Exasol instantly retrieves complex patient EHR (Electronic Health Records) and surgical histories during the discharge process.
+
 ## 🏆 Trust, Safety & Governance Features
 In high-stakes medical environments, AI cannot be a black box, and database transactions cannot fail silently. This system is fortified with deterministic guardrails:
 * **Deterministic Fail-Safe Fallback:** If cloud AI services experience latency or outages, the system automatically degrades to deterministic clinical rules (e.g., auto-routing emergencies to the Emergency Ward) to ensure zero downtime for patient care.
