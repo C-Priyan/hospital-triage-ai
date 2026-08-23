@@ -1,401 +1,401 @@
-Bed_ID,Ward_Type,Status,Patient_ID
-BED-1000,NICU,Available,
-BED-1001,Maternity,Occupied,PT-9747
-BED-1002,Oncology,Available,
-BED-1003,Oncology,Available,
-BED-1004,Oncology,Available,
-BED-1005,General Ward,Occupied,PT-5142
-BED-1006,Emergency,Available,
-BED-1007,NICU,Occupied,PT-10234
-BED-1008,General Ward,Occupied,PT-5063
-BED-1009,Pediatric,Occupied,PT-9136
-BED-1010,ICU,Occupied,PT-12753
-BED-1011,General Ward,Occupied,PT-7139
-BED-1012,Pediatric,Occupied,PT-11827
-BED-1013,General Ward,Occupied,PT-5432
-BED-1014,Maternity,Occupied,PT-12834
-BED-1015,Emergency,Available,
-BED-1016,ICU,Available,
-BED-1017,Oncology,Available,
-BED-1018,Oncology,Available,
-BED-1019,Oncology,Occupied,PT-14235
-BED-1020,General Ward,Occupied,PT-11997
-BED-1021,ICU,Occupied,PT-7684
-BED-1022,Maternity,Occupied,PT-14751
-BED-1023,ICU,Available,
-BED-1024,Maternity,Occupied,PT-6245
-BED-1025,ICU,Available,
-BED-1026,NICU,Available,
-BED-1027,Oncology,Occupied,PT-9418
-BED-1028,General Ward,Available,
-BED-1029,ICU,Occupied,PT-10822
-BED-1030,General Ward,Available,
-BED-1031,Emergency,Occupied,PT-14625
-BED-1032,Oncology,Available,
-BED-1033,NICU,Occupied,PT-12975
-BED-1034,Oncology,Available,
-BED-1035,Pediatric,Occupied,PT-12387
-BED-1036,Oncology,Occupied,PT-8870
-BED-1037,Oncology,Occupied,PT-11712
-BED-1038,Pediatric,Available,
-BED-1039,General Ward,Available,
-BED-1040,NICU,Occupied,PT-11187
-BED-1041,Pediatric,Occupied,PT-5263
-BED-1042,Oncology,Occupied,PT-14373
-BED-1043,NICU,Occupied,PT-13726
-BED-1044,Emergency,Occupied,PT-10195
-BED-1045,Pediatric,Occupied,PT-14512
-BED-1046,Pediatric,Occupied,PT-6881
-BED-1047,Maternity,Occupied,PT-14936
-BED-1048,ICU,Occupied,PT-14120
-BED-1049,General Ward,Occupied,PT-6525
-BED-1050,Oncology,Available,
-BED-1051,General Ward,Occupied,PT-12193
-BED-1052,General Ward,Occupied,PT-9883
-BED-1053,Pediatric,Occupied,PT-12941
-BED-1054,ICU,Occupied,PT-8798
-BED-1055,Emergency,Available,
-BED-1056,Pediatric,Available,
-BED-1057,General Ward,Occupied,PT-11371
-BED-1058,Maternity,Occupied,PT-12140
-BED-1059,Pediatric,Under Maintenance,
-BED-1060,General Ward,Available,
-BED-1061,Oncology,Available,
-BED-1062,Maternity,Occupied,PT-10977
-BED-1063,Oncology,Occupied,PT-8358
-BED-1064,General Ward,Available,
-BED-1065,General Ward,Occupied,PT-12228
-BED-1066,NICU,Occupied,PT-13662
-BED-1067,Maternity,Available,
-BED-1068,ICU,Occupied,PT-13636
-BED-1069,ICU,Occupied,PT-10735
-BED-1070,Emergency,Available,
-BED-1071,Maternity,Available,
-BED-1072,Maternity,Available,
-BED-1073,Pediatric,Occupied,PT-13584
-BED-1074,ICU,Occupied,PT-12379
-BED-1075,ICU,Occupied,PT-9906
-BED-1076,Pediatric,Occupied,PT-13289
-BED-1077,Maternity,Occupied,PT-14758
-BED-1078,Oncology,Occupied,PT-10674
-BED-1079,NICU,Occupied,PT-10934
-BED-1080,NICU,Occupied,PT-12416
-BED-1081,General Ward,Available,
-BED-1082,Oncology,Occupied,PT-6908
-BED-1083,Emergency,Occupied,PT-9009
-BED-1084,Maternity,Occupied,PT-6855
-BED-1085,Oncology,Occupied,PT-13769
-BED-1086,Emergency,Available,
-BED-1087,Maternity,Available,
-BED-1088,Maternity,Available,
-BED-1089,NICU,Available,
-BED-1090,Emergency,Available,
-BED-1091,Emergency,Available,
-BED-1092,NICU,Occupied,PT-9147
-BED-1093,Maternity,Occupied,PT-9299
-BED-1094,Emergency,Available,
-BED-1095,Emergency,Available,
-BED-1096,ICU,Available,
-BED-1097,NICU,Occupied,PT-9324
-BED-1098,Oncology,Under Maintenance,
-BED-1099,Oncology,Occupied,PT-14845
-BED-1100,Pediatric,Occupied,PT-11394
-BED-1101,Maternity,Occupied,PT-6057
-BED-1102,NICU,Occupied,PT-12129
-BED-1103,NICU,Occupied,PT-8983
-BED-1104,Oncology,Available,
-BED-1105,Pediatric,Occupied,PT-14248
-BED-1106,General Ward,Occupied,PT-10245
-BED-1107,Oncology,Occupied,PT-7966
-BED-1108,Pediatric,Occupied,PT-10553
-BED-1109,Pediatric,Available,
-BED-1110,Emergency,Occupied,PT-12846
-BED-1111,General Ward,Occupied,PT-9111
-BED-1112,Emergency,Occupied,PT-12822
-BED-1113,ICU,Occupied,PT-12810
-BED-1114,Pediatric,Occupied,PT-12919
-BED-1115,NICU,Occupied,PT-9549
-BED-1116,NICU,Occupied,PT-8883
-BED-1117,Emergency,Occupied,PT-12185
-BED-1118,Maternity,Occupied,PT-7585
-BED-1119,Emergency,Available,
-BED-1120,Oncology,Occupied,PT-6300
-BED-1121,NICU,Occupied,PT-7320
-BED-1122,Emergency,Occupied,PT-8641
-BED-1123,NICU,Occupied,PT-13316
-BED-1124,ICU,Available,
-BED-1125,General Ward,Occupied,PT-9491
-BED-1126,ICU,Available,
-BED-1127,NICU,Available,
-BED-1128,Maternity,Occupied,PT-13441
-BED-1129,ICU,Available,
-BED-1130,Maternity,Available,
-BED-1131,Emergency,Occupied,PT-12456
-BED-1132,Pediatric,Available,
-BED-1133,General Ward,Available,
-BED-1134,NICU,Occupied,PT-12280
-BED-1135,Emergency,Available,
-BED-1136,Oncology,Available,
-BED-1137,ICU,Occupied,PT-11048
-BED-1138,Oncology,Occupied,PT-11283
-BED-1139,ICU,Occupied,PT-6191
-BED-1140,NICU,Occupied,PT-6333
-BED-1141,Maternity,Available,
-BED-1142,Pediatric,Occupied,PT-13983
-BED-1143,Pediatric,Occupied,PT-14220
-BED-1144,Oncology,Occupied,PT-13505
-BED-1145,ICU,Occupied,PT-12685
-BED-1146,Maternity,Occupied,PT-10441
-BED-1147,General Ward,Available,
-BED-1148,ICU,Available,
-BED-1149,General Ward,Available,
-BED-1150,ICU,Occupied,PT-11116
-BED-1151,ICU,Occupied,PT-13073
-BED-1152,General Ward,Occupied,PT-14709
-BED-1153,ICU,Occupied,PT-13812
-BED-1154,Maternity,Available,
-BED-1155,ICU,Available,
-BED-1156,Maternity,Available,
-BED-1157,Maternity,Available,
-BED-1158,Maternity,Occupied,PT-8619
-BED-1159,Maternity,Occupied,PT-7078
-BED-1160,NICU,Occupied,PT-8070
-BED-1161,Emergency,Occupied,PT-14742
-BED-1162,General Ward,Occupied,PT-5663
-BED-1163,Emergency,Occupied,PT-5466
-BED-1164,Maternity,Available,
-BED-1165,Maternity,Occupied,PT-5978
-BED-1166,Maternity,Occupied,PT-10303
-BED-1167,Pediatric,Occupied,PT-14653
-BED-1168,Pediatric,Occupied,PT-5201
-BED-1169,Pediatric,Available,
-BED-1170,Emergency,Occupied,PT-10237
-BED-1171,Maternity,Available,
-BED-1172,Oncology,Occupied,PT-9696
-BED-1173,ICU,Occupied,PT-10745
-BED-1174,Emergency,Under Maintenance,
-BED-1175,Maternity,Occupied,PT-6856
-BED-1176,NICU,Occupied,PT-12178
-BED-1177,Pediatric,Occupied,PT-8770
-BED-1178,General Ward,Under Maintenance,
-BED-1179,NICU,Occupied,PT-11222
-BED-1180,Oncology,Available,
-BED-1181,Maternity,Occupied,PT-10277
-BED-1182,ICU,Occupied,PT-14019
-BED-1183,General Ward,Occupied,PT-10969
-BED-1184,Maternity,Available,
-BED-1185,Oncology,Available,
-BED-1186,ICU,Occupied,PT-9659
-BED-1187,Maternity,Occupied,PT-5531
-BED-1188,General Ward,Occupied,PT-10284
-BED-1189,NICU,Available,
-BED-1190,ICU,Available,
-BED-1191,Pediatric,Occupied,PT-14294
-BED-1192,ICU,Available,
-BED-1193,NICU,Available,
-BED-1194,Oncology,Occupied,PT-6100
-BED-1195,Oncology,Occupied,PT-14365
-BED-1196,General Ward,Available,
-BED-1197,Maternity,Available,
-BED-1198,Emergency,Available,
-BED-1199,ICU,Available,
-BED-1200,Pediatric,Occupied,PT-8671
-BED-1201,General Ward,Available,
-BED-1202,ICU,Occupied,PT-9542
-BED-1203,Emergency,Occupied,PT-9962
-BED-1204,Pediatric,Occupied,PT-8029
-BED-1205,NICU,Occupied,PT-9758
-BED-1206,General Ward,Under Maintenance,
-BED-1207,NICU,Available,
-BED-1208,Oncology,Occupied,PT-11696
-BED-1209,Pediatric,Occupied,PT-7059
-BED-1210,General Ward,Occupied,PT-12689
-BED-1211,ICU,Occupied,PT-6689
-BED-1212,General Ward,Available,
-BED-1213,Pediatric,Occupied,PT-7207
-BED-1214,General Ward,Occupied,PT-8087
-BED-1215,Emergency,Occupied,PT-14995
-BED-1216,Pediatric,Occupied,PT-8838
-BED-1217,ICU,Occupied,PT-9046
-BED-1218,Maternity,Available,
-BED-1219,NICU,Occupied,PT-5906
-BED-1220,ICU,Occupied,PT-11658
-BED-1221,Oncology,Occupied,PT-10508
-BED-1222,ICU,Available,
-BED-1223,Maternity,Available,
-BED-1224,Pediatric,Occupied,PT-8878
-BED-1225,NICU,Available,
-BED-1226,Emergency,Available,
-BED-1227,Oncology,Occupied,PT-8312
-BED-1228,Maternity,Available,
-BED-1229,General Ward,Under Maintenance,
-BED-1230,Emergency,Occupied,PT-11092
-BED-1231,General Ward,Available,
-BED-1232,ICU,Under Maintenance,
-BED-1233,Pediatric,Available,
-BED-1234,General Ward,Available,
-BED-1235,Maternity,Available,
-BED-1236,Pediatric,Occupied,PT-8190
-BED-1237,Oncology,Occupied,PT-11036
-BED-1238,ICU,Available,
-BED-1239,Pediatric,Occupied,PT-12738
-BED-1240,Pediatric,Available,
-BED-1241,Maternity,Under Maintenance,
-BED-1242,ICU,Occupied,PT-10140
-BED-1243,Maternity,Occupied,PT-14589
-BED-1244,Maternity,Occupied,PT-13875
-BED-1245,General Ward,Occupied,PT-5329
-BED-1246,ICU,Under Maintenance,
-BED-1247,General Ward,Occupied,PT-14344
-BED-1248,Pediatric,Occupied,PT-11487
-BED-1249,Oncology,Occupied,PT-7562
-BED-1250,General Ward,Occupied,PT-13253
-BED-1251,Maternity,Available,
-BED-1252,Maternity,Under Maintenance,
-BED-1253,General Ward,Under Maintenance,
-BED-1254,Maternity,Occupied,PT-8045
-BED-1255,NICU,Available,
-BED-1256,Pediatric,Occupied,PT-6966
-BED-1257,Pediatric,Available,
-BED-1258,ICU,Available,
-BED-1259,General Ward,Available,
-BED-1260,Emergency,Available,
-BED-1261,Maternity,Occupied,PT-14738
-BED-1262,Emergency,Available,
-BED-1263,General Ward,Available,
-BED-1264,Oncology,Occupied,PT-11608
-BED-1265,Maternity,Occupied,PT-5001
-BED-1266,Emergency,Available,
-BED-1267,Oncology,Available,
-BED-1268,Pediatric,Occupied,PT-13607
-BED-1269,Emergency,Occupied,PT-13029
-BED-1270,ICU,Occupied,PT-14177
-BED-1271,ICU,Available,
-BED-1272,Pediatric,Occupied,PT-13008
-BED-1273,NICU,Available,
-BED-1274,ICU,Occupied,PT-10328
-BED-1275,Emergency,Occupied,PT-12711
-BED-1276,ICU,Available,
-BED-1277,Oncology,Occupied,PT-13261
-BED-1278,Emergency,Occupied,PT-14044
-BED-1279,General Ward,Available,
-BED-1280,Pediatric,Available,
-BED-1281,Oncology,Occupied,PT-7396
-BED-1282,Oncology,Available,
-BED-1283,NICU,Under Maintenance,
-BED-1284,NICU,Occupied,PT-12800
-BED-1285,Oncology,Available,
-BED-1286,Pediatric,Available,
-BED-1287,NICU,Occupied,PT-8118
-BED-1288,NICU,Occupied,PT-12619
-BED-1289,General Ward,Occupied,PT-11961
-BED-1290,Emergency,Available,
-BED-1291,Emergency,Occupied,PT-9055
-BED-1292,Oncology,Occupied,PT-5776
-BED-1293,Emergency,Under Maintenance,
-BED-1294,Maternity,Occupied,PT-14633
-BED-1295,Pediatric,Occupied,PT-12681
-BED-1296,ICU,Occupied,PT-12465
-BED-1297,NICU,Occupied,PT-8596
-BED-1298,Oncology,Occupied,PT-14519
-BED-1299,Oncology,Occupied,PT-13445
-BED-1300,Emergency,Available,
-BED-1301,Pediatric,Occupied,PT-9051
-BED-1302,Maternity,Available,
-BED-1303,General Ward,Occupied,PT-12165
-BED-1304,Maternity,Occupied,PT-11304
-BED-1305,General Ward,Occupied,PT-11748
-BED-1306,General Ward,Occupied,PT-5446
-BED-1307,General Ward,Occupied,PT-14326
-BED-1308,ICU,Occupied,PT-13184
-BED-1309,General Ward,Available,
-BED-1310,Emergency,Occupied,PT-14328
-BED-1311,Pediatric,Occupied,PT-13168
-BED-1312,General Ward,Occupied,PT-13245
-BED-1313,ICU,Available,
-BED-1314,Emergency,Available,
-BED-1315,Oncology,Occupied,PT-10339
-BED-1316,Maternity,Occupied,PT-10488
-BED-1317,General Ward,Available,
-BED-1318,NICU,Available,
-BED-1319,General Ward,Occupied,PT-5182
-BED-1320,Oncology,Occupied,PT-5905
-BED-1321,ICU,Available,
-BED-1322,General Ward,Available,
-BED-1323,Maternity,Occupied,PT-9789
-BED-1324,ICU,Available,
-BED-1325,Maternity,Occupied,PT-9545
-BED-1326,Pediatric,Available,
-BED-1327,Maternity,Available,
-BED-1328,ICU,Occupied,PT-10960
-BED-1329,Maternity,Occupied,PT-5759
-BED-1330,ICU,Occupied,PT-12269
-BED-1331,Maternity,Available,
-BED-1332,General Ward,Available,
-BED-1333,ICU,Occupied,PT-7301
-BED-1334,General Ward,Available,
-BED-1335,General Ward,Available,
-BED-1336,General Ward,Occupied,PT-14840
-BED-1337,Pediatric,Occupied,PT-11549
-BED-1338,Maternity,Available,
-BED-1339,NICU,Occupied,PT-7573
-BED-1340,Emergency,Available,
-BED-1341,Oncology,Available,
-BED-1342,NICU,Occupied,PT-14990
-BED-1343,General Ward,Available,
-BED-1344,Oncology,Occupied,PT-5445
-BED-1345,Emergency,Available,
-BED-1346,Emergency,Occupied,PT-6338
-BED-1347,Emergency,Available,
-BED-1348,Emergency,Occupied,PT-5282
-BED-1349,NICU,Available,
-BED-1350,Maternity,Available,
-BED-1351,NICU,Under Maintenance,
-BED-1352,General Ward,Occupied,PT-12232
-BED-1353,Maternity,Occupied,PT-8789
-BED-1354,ICU,Available,
-BED-1355,ICU,Available,
-BED-1356,General Ward,Occupied,PT-7981
-BED-1357,ICU,Available,
-BED-1358,Pediatric,Occupied,PT-7417
-BED-1359,Maternity,Occupied,PT-11631
-BED-1360,General Ward,Occupied,PT-10827
-BED-1361,Maternity,Available,
-BED-1362,Maternity,Available,
-BED-1363,NICU,Available,
-BED-1364,ICU,Occupied,PT-7420
-BED-1365,Maternity,Occupied,PT-12350
-BED-1366,NICU,Occupied,PT-13467
-BED-1367,NICU,Available,
-BED-1368,NICU,Occupied,PT-7594
-BED-1369,Maternity,Occupied,PT-10662
-BED-1370,ICU,Available,
-BED-1371,Maternity,Available,
-BED-1372,Pediatric,Occupied,PT-9745
-BED-1373,Emergency,Occupied,PT-11321
-BED-1374,Oncology,Occupied,PT-8892
-BED-1375,Emergency,Occupied,PT-5257
-BED-1376,Maternity,Available,
-BED-1377,NICU,Under Maintenance,
-BED-1378,Pediatric,Occupied,PT-10448
-BED-1379,Emergency,Occupied,PT-9985
-BED-1380,Pediatric,Occupied,PT-6284
-BED-1381,General Ward,Occupied,PT-10754
-BED-1382,Oncology,Occupied,PT-11969
-BED-1383,ICU,Occupied,PT-13189
-BED-1384,General Ward,Available,
-BED-1385,General Ward,Available,
-BED-1386,NICU,Available,
-BED-1387,NICU,Available,
-BED-1388,NICU,Available,
-BED-1389,Pediatric,Occupied,PT-6983
-BED-1390,NICU,Available,
-BED-1391,Maternity,Occupied,PT-6108
-BED-1392,General Ward,Occupied,PT-12517
-BED-1393,ICU,Occupied,PT-12242
-BED-1394,Oncology,Occupied,PT-8330
-BED-1395,Emergency,Occupied,PT-14569
-BED-1396,NICU,Occupied,PT-14029
-BED-1397,General Ward,Available,
-BED-1398,Maternity,Occupied,PT-12246
-BED-1399,NICU,Occupied,PT-7696
+Bed_ID,Ward_Type,Status,Patient_ID,Admission_Time
+BED-1000,General Ward,Available,,2026-08-23 13:07:51
+BED-1001,General Ward,Occupied,PT-9747,2026-08-17 16:59:36
+BED-1002,General Ward,Occupied,PT-5142,2026-08-20 18:42:13
+BED-1003,General Ward,Occupied,PT-10234,2026-08-22 11:04:05
+BED-1004,General Ward,Available,,2026-08-19 08:12:04
+BED-1005,General Ward,Available,,2026-08-23 01:22:19
+BED-1006,General Ward,Occupied,PT-5063,2026-08-16 22:42:04
+BED-1007,General Ward,Occupied,PT-9136,2026-08-21 06:00:11
+BED-1008,General Ward,Occupied,PT-12753,2026-08-22 03:11:55
+BED-1009,General Ward,Available,,2026-08-23 13:35:58
+BED-1010,General Ward,Available,,2026-08-21 05:50:55
+BED-1011,General Ward,Occupied,PT-7139,2026-08-22 05:24:44
+BED-1012,General Ward,Available,,2026-08-19 10:14:18
+BED-1013,General Ward,Available,,2026-08-21 07:39:31
+BED-1014,General Ward,Occupied,PT-11827,2026-08-22 02:35:14
+BED-1015,General Ward,Occupied,PT-5432,2026-08-18 19:46:27
+BED-1016,General Ward,Available,,2026-08-17 01:33:28
+BED-1017,General Ward,Occupied,PT-12834,2026-08-21 09:47:05
+BED-1018,General Ward,Available,,2026-08-18 01:19:34
+BED-1019,General Ward,Occupied,PT-14235,2026-08-17 04:01:46
+BED-1020,General Ward,Occupied,PT-11997,2026-08-18 19:41:31
+BED-1021,General Ward,Occupied,PT-7684,2026-08-18 23:19:02
+BED-1022,General Ward,Occupied,PT-14751,2026-08-22 04:19:43
+BED-1023,General Ward,Occupied,PT-6245,2026-08-18 19:41:09
+BED-1024,General Ward,Occupied,PT-9418,2026-08-21 20:50:13
+BED-1025,General Ward,Available,,2026-08-20 07:54:18
+BED-1026,General Ward,Available,,2026-08-19 08:04:11
+BED-1027,General Ward,Occupied,PT-10822,2026-08-18 17:25:39
+BED-1028,General Ward,Available,,2026-08-17 07:32:53
+BED-1029,General Ward,Occupied,PT-14625,2026-08-21 00:52:49
+BED-1030,General Ward,Occupied,PT-12975,2026-08-22 19:08:21
+BED-1031,General Ward,Occupied,PT-12387,2026-08-21 07:36:53
+BED-1032,General Ward,Occupied,PT-8870,2026-08-23 12:14:09
+BED-1033,General Ward,Occupied,PT-11712,2026-08-23 11:44:16
+BED-1034,General Ward,Available,,2026-08-21 22:43:31
+BED-1035,General Ward,Occupied,PT-11187,2026-08-18 12:59:40
+BED-1036,General Ward,Available,,2026-08-19 20:39:48
+BED-1037,General Ward,Available,,2026-08-21 00:39:31
+BED-1038,General Ward,Available,,2026-08-22 07:30:16
+BED-1039,General Ward,Available,,2026-08-17 21:04:11
+BED-1040,General Ward,Available,,2026-08-21 00:56:22
+BED-1041,General Ward,Occupied,PT-5263,2026-08-21 00:19:15
+BED-1042,General Ward,Occupied,PT-14373,2026-08-22 00:12:38
+BED-1043,General Ward,Occupied,PT-13726,2026-08-18 23:50:27
+BED-1044,General Ward,Available,,2026-08-18 12:37:23
+BED-1045,General Ward,Available,,2026-08-22 13:18:24
+BED-1046,General Ward,Occupied,PT-10195,2026-08-22 06:54:08
+BED-1047,General Ward,Available,,2026-08-16 16:58:41
+BED-1048,General Ward,Available,,2026-08-18 01:26:06
+BED-1049,General Ward,Occupied,PT-14512,2026-08-18 00:35:11
+BED-1050,General Ward,Available,,2026-08-20 16:40:10
+BED-1051,General Ward,Occupied,PT-6881,2026-08-20 08:41:31
+BED-1052,General Ward,Available,,2026-08-17 18:49:55
+BED-1053,General Ward,Available,,2026-08-22 06:47:50
+BED-1054,General Ward,Occupied,PT-14936,2026-08-22 16:17:26
+BED-1055,General Ward,Occupied,PT-14120,2026-08-19 02:47:32
+BED-1056,General Ward,Occupied,PT-6525,2026-08-18 20:10:34
+BED-1057,General Ward,Occupied,PT-12193,2026-08-21 15:24:28
+BED-1058,General Ward,Occupied,PT-9883,2026-08-16 16:14:48
+BED-1059,General Ward,Available,,2026-08-21 18:24:30
+BED-1060,General Ward,Occupied,PT-12941,2026-08-22 18:51:54
+BED-1061,General Ward,Occupied,PT-8798,2026-08-20 18:02:06
+BED-1062,General Ward,Occupied,PT-11371,2026-08-21 13:15:00
+BED-1063,General Ward,Available,,2026-08-22 18:59:04
+BED-1064,General Ward,Available,,2026-08-23 07:38:13
+BED-1065,General Ward,Occupied,PT-12140,2026-08-23 03:02:22
+BED-1066,General Ward,Occupied,PT-10977,2026-08-23 07:11:31
+BED-1067,General Ward,Available,,2026-08-21 17:16:10
+BED-1068,General Ward,Occupied,PT-8358,2026-08-17 09:12:31
+BED-1069,General Ward,Occupied,PT-12228,2026-08-17 01:04:53
+BED-1070,General Ward,Occupied,PT-13662,2026-08-22 23:27:29
+BED-1071,General Ward,Occupied,PT-13636,2026-08-20 18:49:08
+BED-1072,General Ward,Occupied,PT-10735,2026-08-22 09:03:04
+BED-1073,General Ward,Occupied,PT-13584,2026-08-19 01:17:47
+BED-1074,General Ward,Occupied,PT-12379,2026-08-20 19:54:36
+BED-1075,General Ward,Available,,2026-08-22 16:49:11
+BED-1076,General Ward,Available,,2026-08-21 05:09:11
+BED-1077,General Ward,Available,,2026-08-22 10:22:52
+BED-1078,General Ward,Occupied,PT-9906,2026-08-20 04:20:55
+BED-1079,General Ward,Occupied,PT-13289,2026-08-19 04:48:45
+BED-1080,General Ward,Occupied,PT-14758,2026-08-18 23:34:20
+BED-1081,General Ward,Available,,2026-08-21 14:32:16
+BED-1082,General Ward,Occupied,PT-10674,2026-08-19 22:39:30
+BED-1083,General Ward,Occupied,PT-10934,2026-08-19 21:59:55
+BED-1084,General Ward,Available,,2026-08-22 15:25:49
+BED-1085,General Ward,Occupied,PT-12416,2026-08-17 05:46:43
+BED-1086,General Ward,Available,,2026-08-18 15:54:10
+BED-1087,General Ward,Occupied,PT-6908,2026-08-21 06:22:10
+BED-1088,General Ward,Under Maintenance,,2026-08-19 01:22:59
+BED-1089,General Ward,Occupied,PT-9009,2026-08-18 10:42:28
+BED-1090,General Ward,Under Maintenance,,2026-08-22 13:37:47
+BED-1091,General Ward,Under Maintenance,,2026-08-21 10:08:13
+BED-1092,General Ward,Occupied,PT-6855,2026-08-22 14:26:35
+BED-1093,General Ward,Available,,2026-08-21 18:29:30
+BED-1094,General Ward,Occupied,PT-13769,2026-08-20 21:02:26
+BED-1095,General Ward,Available,,2026-08-21 09:34:55
+BED-1096,General Ward,Occupied,PT-9147,2026-08-19 19:45:16
+BED-1097,General Ward,Available,,2026-08-20 16:25:03
+BED-1098,General Ward,Occupied,PT-9299,2026-08-22 21:51:19
+BED-1099,General Ward,Occupied,PT-9324,2026-08-22 00:21:42
+BED-1100,General Ward,Occupied,PT-14845,2026-08-21 07:41:59
+BED-1101,General Ward,Occupied,PT-11394,2026-08-21 07:02:56
+BED-1102,General Ward,Available,,2026-08-19 18:25:40
+BED-1103,General Ward,Available,,2026-08-19 20:06:57
+BED-1104,General Ward,Available,,2026-08-21 23:49:42
+BED-1105,General Ward,Occupied,PT-6057,2026-08-17 13:42:53
+BED-1106,General Ward,Under Maintenance,,2026-08-20 20:31:20
+BED-1107,General Ward,Occupied,PT-12129,2026-08-20 21:53:41
+BED-1108,General Ward,Available,,2026-08-19 12:24:27
+BED-1109,General Ward,Available,,2026-08-19 23:01:41
+BED-1110,General Ward,Available,,2026-08-22 00:02:31
+BED-1111,General Ward,Occupied,PT-8983,2026-08-19 16:31:21
+BED-1112,General Ward,Available,,2026-08-20 12:01:49
+BED-1113,General Ward,Occupied,PT-14248,2026-08-17 01:24:54
+BED-1114,General Ward,Occupied,PT-10245,2026-08-18 04:41:12
+BED-1115,General Ward,Occupied,PT-7966,2026-08-19 16:39:09
+BED-1116,General Ward,Occupied,PT-10553,2026-08-16 21:45:23
+BED-1117,General Ward,Available,,2026-08-21 01:05:15
+BED-1118,General Ward,Occupied,PT-12846,2026-08-19 13:12:03
+BED-1119,General Ward,Occupied,PT-9111,2026-08-21 23:50:50
+BED-1120,General Ward,Occupied,PT-12822,2026-08-22 15:07:50
+BED-1121,General Ward,Occupied,PT-12810,2026-08-18 16:19:17
+BED-1122,General Ward,Occupied,PT-12919,2026-08-16 16:31:33
+BED-1123,General Ward,Occupied,PT-9549,2026-08-23 09:46:22
+BED-1124,General Ward,Available,,2026-08-19 22:23:32
+BED-1125,General Ward,Available,,2026-08-22 23:35:45
+BED-1126,General Ward,Available,,2026-08-21 10:56:17
+BED-1127,General Ward,Available,,2026-08-20 10:36:16
+BED-1128,General Ward,Occupied,PT-8883,2026-08-19 09:01:19
+BED-1129,General Ward,Occupied,PT-12185,2026-08-19 18:15:27
+BED-1130,General Ward,Occupied,PT-7585,2026-08-20 15:49:53
+BED-1131,General Ward,Available,,2026-08-16 22:45:59
+BED-1132,General Ward,Occupied,PT-6300,2026-08-19 11:56:40
+BED-1133,General Ward,Occupied,PT-7320,2026-08-21 23:20:07
+BED-1134,General Ward,Available,,2026-08-20 20:40:32
+BED-1135,General Ward,Available,,2026-08-20 00:21:45
+BED-1136,General Ward,Occupied,PT-8641,2026-08-23 08:15:38
+BED-1137,General Ward,Occupied,PT-13316,2026-08-17 00:23:01
+BED-1138,General Ward,Available,,2026-08-22 11:18:37
+BED-1139,General Ward,Available,,2026-08-22 23:49:01
+BED-1140,General Ward,Occupied,PT-9491,2026-08-16 17:01:48
+BED-1141,General Ward,Occupied,PT-13441,2026-08-21 04:00:56
+BED-1142,General Ward,Available,,2026-08-19 09:46:26
+BED-1143,General Ward,Occupied,PT-12456,2026-08-23 01:53:25
+BED-1144,General Ward,Occupied,PT-12280,2026-08-19 05:47:43
+BED-1145,General Ward,Occupied,PT-11048,2026-08-19 00:47:17
+BED-1146,General Ward,Occupied,PT-11283,2026-08-23 02:21:04
+BED-1147,General Ward,Available,,2026-08-21 03:13:20
+BED-1148,General Ward,Occupied,PT-6191,2026-08-21 12:15:48
+BED-1149,General Ward,Available,,2026-08-18 21:48:27
+BED-1150,General Ward,Available,,2026-08-18 21:14:13
+BED-1151,General Ward,Available,,2026-08-18 02:06:39
+BED-1152,General Ward,Available,,2026-08-19 15:02:48
+BED-1153,General Ward,Under Maintenance,,2026-08-21 13:28:39
+BED-1154,General Ward,Occupied,PT-6333,2026-08-21 05:31:25
+BED-1155,General Ward,Occupied,PT-13983,2026-08-20 07:08:42
+BED-1156,General Ward,Occupied,PT-14220,2026-08-22 23:47:00
+BED-1157,General Ward,Occupied,PT-13505,2026-08-17 03:24:06
+BED-1158,General Ward,Occupied,PT-12685,2026-08-19 23:30:00
+BED-1159,General Ward,Occupied,PT-10441,2026-08-16 23:24:15
+BED-1160,General Ward,Available,,2026-08-22 09:10:41
+BED-1161,General Ward,Under Maintenance,,2026-08-19 07:23:49
+BED-1162,General Ward,Available,,2026-08-22 04:28:57
+BED-1163,General Ward,Occupied,PT-11116,2026-08-19 03:47:28
+BED-1164,General Ward,Occupied,PT-13073,2026-08-17 07:01:54
+BED-1165,General Ward,Occupied,PT-14709,2026-08-19 22:57:29
+BED-1166,General Ward,Available,,2026-08-17 16:21:07
+BED-1167,General Ward,Available,,2026-08-20 21:21:37
+BED-1168,General Ward,Occupied,PT-13812,2026-08-16 15:17:14
+BED-1169,General Ward,Occupied,PT-8619,2026-08-21 07:25:52
+BED-1170,General Ward,Available,,2026-08-19 06:31:36
+BED-1171,General Ward,Occupied,PT-7078,2026-08-18 18:22:03
+BED-1172,General Ward,Occupied,PT-8070,2026-08-19 17:55:42
+BED-1173,General Ward,Occupied,PT-14742,2026-08-16 23:26:41
+BED-1174,General Ward,Available,,2026-08-20 10:25:52
+BED-1175,General Ward,Available,,2026-08-17 21:00:43
+BED-1176,General Ward,Occupied,PT-5663,2026-08-17 04:16:21
+BED-1177,General Ward,Available,,2026-08-18 08:01:11
+BED-1178,General Ward,Available,,2026-08-21 13:37:54
+BED-1179,General Ward,Occupied,PT-5466,2026-08-21 00:02:41
+BED-1180,Emergency,Available,,2026-08-22 21:21:19
+BED-1181,Emergency,Available,,2026-08-19 10:01:58
+BED-1182,Emergency,Occupied,PT-5978,2026-08-23 02:08:35
+BED-1183,Emergency,Occupied,PT-10303,2026-08-22 02:32:52
+BED-1184,Emergency,Occupied,PT-14653,2026-08-21 20:42:03
+BED-1185,Emergency,Available,,2026-08-19 02:54:03
+BED-1186,Emergency,Occupied,PT-5201,2026-08-19 01:46:10
+BED-1187,Emergency,Available,,2026-08-20 03:46:07
+BED-1188,Emergency,Occupied,PT-10237,2026-08-21 09:49:57
+BED-1189,Emergency,Available,,2026-08-22 07:00:40
+BED-1190,Emergency,Available,,2026-08-20 00:47:31
+BED-1191,Emergency,Occupied,PT-9696,2026-08-21 19:17:28
+BED-1192,Emergency,Available,,2026-08-19 20:31:25
+BED-1193,Emergency,Occupied,PT-10745,2026-08-21 09:41:42
+BED-1194,Emergency,Occupied,PT-6856,2026-08-21 20:42:05
+BED-1195,Emergency,Available,,2026-08-17 01:46:59
+BED-1196,Emergency,Occupied,PT-12178,2026-08-19 15:02:12
+BED-1197,Emergency,Available,,2026-08-19 06:31:23
+BED-1198,Emergency,Available,,2026-08-18 06:39:43
+BED-1199,Emergency,Available,,2026-08-22 12:22:28
+BED-1200,Emergency,Available,,2026-08-19 00:09:37
+BED-1201,Emergency,Available,,2026-08-23 13:02:25
+BED-1202,Emergency,Occupied,PT-8770,2026-08-22 09:07:31
+BED-1203,Emergency,Occupied,PT-11222,2026-08-19 19:56:05
+BED-1204,Emergency,Available,,2026-08-17 23:22:16
+BED-1205,Emergency,Available,,2026-08-20 16:40:43
+BED-1206,Emergency,Occupied,PT-10277,2026-08-18 09:37:02
+BED-1207,Emergency,Occupied,PT-14019,2026-08-17 06:32:36
+BED-1208,Emergency,Occupied,PT-10969,2026-08-23 14:33:07
+BED-1209,Emergency,Occupied,PT-9659,2026-08-20 01:32:00
+BED-1210,Emergency,Available,,2026-08-17 11:14:30
+BED-1211,Emergency,Available,,2026-08-17 06:27:07
+BED-1212,Emergency,Occupied,PT-5531,2026-08-17 16:46:03
+BED-1213,Emergency,Available,,2026-08-16 21:03:58
+BED-1214,Emergency,Available,,2026-08-18 19:03:19
+BED-1215,Emergency,Under Maintenance,,2026-08-22 13:24:21
+BED-1216,Emergency,Occupied,PT-10284,2026-08-21 21:57:43
+BED-1217,Emergency,Available,,2026-08-17 03:59:25
+BED-1218,Emergency,Occupied,PT-14294,2026-08-22 11:34:20
+BED-1219,Emergency,Available,,2026-08-23 02:14:49
+BED-1220,Emergency,Occupied,PT-6100,2026-08-17 22:59:49
+BED-1221,Emergency,Occupied,PT-14365,2026-08-20 14:24:48
+BED-1222,Emergency,Occupied,PT-8671,2026-08-18 00:23:53
+BED-1223,Emergency,Occupied,PT-9542,2026-08-21 09:00:32
+BED-1224,Emergency,Available,,2026-08-20 06:00:18
+BED-1225,Emergency,Occupied,PT-9962,2026-08-22 21:42:41
+BED-1226,Emergency,Occupied,PT-8029,2026-08-19 19:19:38
+BED-1227,Emergency,Occupied,PT-9758,2026-08-22 05:19:23
+BED-1228,Emergency,Occupied,PT-11696,2026-08-22 09:29:10
+BED-1229,Emergency,Occupied,PT-7059,2026-08-23 11:42:07
+BED-1230,Emergency,Available,,2026-08-22 07:36:33
+BED-1231,Emergency,Available,,2026-08-19 01:47:48
+BED-1232,Emergency,Available,,2026-08-22 21:53:32
+BED-1233,Emergency,Occupied,PT-12689,2026-08-19 00:05:11
+BED-1234,Emergency,Available,,2026-08-19 11:39:48
+BED-1235,Emergency,Occupied,PT-6689,2026-08-16 21:14:06
+BED-1236,Emergency,Occupied,PT-7207,2026-08-21 19:18:46
+BED-1237,Emergency,Occupied,PT-8087,2026-08-17 16:18:13
+BED-1238,Emergency,Occupied,PT-14995,2026-08-19 19:40:52
+BED-1239,Emergency,Available,,2026-08-19 16:11:36
+BED-1240,Emergency,Occupied,PT-8838,2026-08-19 05:31:07
+BED-1241,Emergency,Available,,2026-08-20 12:31:48
+BED-1242,Emergency,Available,,2026-08-22 01:09:32
+BED-1243,Emergency,Available,,2026-08-21 03:01:39
+BED-1244,Emergency,Occupied,PT-9046,2026-08-19 21:25:50
+BED-1245,Emergency,Occupied,PT-5906,2026-08-22 08:41:40
+BED-1246,Emergency,Occupied,PT-11658,2026-08-23 00:43:41
+BED-1247,Emergency,Occupied,PT-10508,2026-08-19 04:10:55
+BED-1248,Emergency,Available,,2026-08-20 18:20:40
+BED-1249,Emergency,Occupied,PT-8878,2026-08-16 21:35:03
+BED-1250,Emergency,Available,,2026-08-20 19:05:08
+BED-1251,Emergency,Occupied,PT-8312,2026-08-18 20:19:56
+BED-1252,Emergency,Occupied,PT-11092,2026-08-21 14:17:48
+BED-1253,Emergency,Available,,2026-08-17 00:08:27
+BED-1254,Emergency,Occupied,PT-8190,2026-08-18 21:00:14
+BED-1255,Emergency,Available,,2026-08-22 07:01:46
+BED-1256,Emergency,Occupied,PT-11036,2026-08-16 23:21:04
+BED-1257,Emergency,Under Maintenance,,2026-08-21 12:25:50
+BED-1258,Emergency,Occupied,PT-12738,2026-08-23 00:39:21
+BED-1259,Emergency,Occupied,PT-10140,2026-08-22 07:54:42
+BED-1260,Maternity,Available,,2026-08-20 16:13:33
+BED-1261,Maternity,Occupied,PT-14589,2026-08-21 20:56:35
+BED-1262,Maternity,Under Maintenance,,2026-08-22 07:56:00
+BED-1263,Maternity,Available,,2026-08-17 08:31:02
+BED-1264,Maternity,Occupied,PT-13875,2026-08-22 10:58:27
+BED-1265,Maternity,Available,,2026-08-17 15:43:17
+BED-1266,Maternity,Available,,2026-08-23 04:42:10
+BED-1267,Maternity,Occupied,PT-5329,2026-08-18 01:47:10
+BED-1268,Maternity,Available,,2026-08-18 13:29:11
+BED-1269,Maternity,Occupied,PT-14344,2026-08-18 20:00:53
+BED-1270,Maternity,Available,,2026-08-19 12:33:55
+BED-1271,Maternity,Occupied,PT-11487,2026-08-21 11:09:37
+BED-1272,Maternity,Occupied,PT-7562,2026-08-17 18:32:03
+BED-1273,Maternity,Occupied,PT-13253,2026-08-19 06:31:34
+BED-1274,Maternity,Occupied,PT-8045,2026-08-23 12:55:35
+BED-1275,Maternity,Available,,2026-08-17 22:53:03
+BED-1276,Maternity,Occupied,PT-6966,2026-08-18 04:00:26
+BED-1277,Maternity,Under Maintenance,,2026-08-18 21:32:59
+BED-1278,Maternity,Available,,2026-08-22 14:12:25
+BED-1279,Maternity,Occupied,PT-14738,2026-08-22 05:23:32
+BED-1280,Maternity,Available,,2026-08-19 16:45:33
+BED-1281,Maternity,Occupied,PT-11608,2026-08-21 00:54:16
+BED-1282,Maternity,Occupied,PT-5001,2026-08-22 22:38:04
+BED-1283,Maternity,Occupied,PT-13607,2026-08-20 05:35:14
+BED-1284,Maternity,Available,,2026-08-17 20:44:53
+BED-1285,Maternity,Available,,2026-08-19 03:13:44
+BED-1286,Maternity,Available,,2026-08-19 15:16:32
+BED-1287,Maternity,Occupied,PT-13029,2026-08-22 16:01:34
+BED-1288,Maternity,Occupied,PT-14177,2026-08-21 14:41:04
+BED-1289,Maternity,Occupied,PT-13008,2026-08-22 16:42:06
+BED-1290,Maternity,Available,,2026-08-22 00:46:57
+BED-1291,Maternity,Available,,2026-08-16 17:31:20
+BED-1292,Maternity,Occupied,PT-10328,2026-08-20 16:19:36
+BED-1293,Maternity,Available,,2026-08-22 18:00:19
+BED-1294,Maternity,Available,,2026-08-16 18:18:59
+BED-1295,Maternity,Available,,2026-08-22 13:25:09
+BED-1296,Maternity,Available,,2026-08-17 10:10:13
+BED-1297,Maternity,Occupied,PT-12711,2026-08-17 03:58:32
+BED-1298,Maternity,Available,,2026-08-21 12:42:52
+BED-1299,Maternity,Available,,2026-08-21 00:44:39
+BED-1300,Maternity,Occupied,PT-13261,2026-08-18 01:35:54
+BED-1301,Maternity,Occupied,PT-14044,2026-08-16 23:38:00
+BED-1302,Maternity,Occupied,PT-7396,2026-08-21 19:22:16
+BED-1303,Maternity,Occupied,PT-12800,2026-08-19 20:46:16
+BED-1304,Maternity,Available,,2026-08-17 02:47:55
+BED-1305,Maternity,Available,,2026-08-22 15:21:52
+BED-1306,Maternity,Occupied,PT-8118,2026-08-17 01:20:15
+BED-1307,Maternity,Available,,2026-08-22 03:27:17
+BED-1308,Maternity,Occupied,PT-12619,2026-08-23 00:36:47
+BED-1309,Maternity,Available,,2026-08-19 02:36:45
+BED-1310,Maternity,Occupied,PT-11961,2026-08-23 03:33:51
+BED-1311,Maternity,Occupied,PT-9055,2026-08-20 06:41:34
+BED-1312,Maternity,Occupied,PT-5776,2026-08-21 23:27:50
+BED-1313,Maternity,Occupied,PT-14633,2026-08-23 01:32:40
+BED-1314,Maternity,Available,,2026-08-19 21:13:49
+BED-1315,Maternity,Occupied,PT-12681,2026-08-22 20:07:18
+BED-1316,Maternity,Occupied,PT-12465,2026-08-19 00:04:35
+BED-1317,Maternity,Occupied,PT-8596,2026-08-16 18:00:09
+BED-1318,Maternity,Occupied,PT-14519,2026-08-19 09:18:56
+BED-1319,Maternity,Occupied,PT-13445,2026-08-19 16:58:41
+BED-1320,Pediatric,Available,,2026-08-22 21:39:07
+BED-1321,Pediatric,Available,,2026-08-20 21:13:15
+BED-1322,Pediatric,Available,,2026-08-22 05:36:06
+BED-1323,Pediatric,Occupied,PT-9051,2026-08-19 04:57:59
+BED-1324,Pediatric,Occupied,PT-12165,2026-08-21 20:59:09
+BED-1325,Pediatric,Occupied,PT-11304,2026-08-20 14:36:26
+BED-1326,Pediatric,Occupied,PT-11748,2026-08-20 01:50:43
+BED-1327,Pediatric,Available,,2026-08-16 17:00:53
+BED-1328,Pediatric,Occupied,PT-5446,2026-08-20 03:40:55
+BED-1329,Pediatric,Available,,2026-08-19 19:18:45
+BED-1330,Pediatric,Available,,2026-08-18 04:33:59
+BED-1331,Pediatric,Available,,2026-08-22 10:29:09
+BED-1332,Pediatric,Occupied,PT-14326,2026-08-18 20:42:17
+BED-1333,Pediatric,Available,,2026-08-22 20:38:27
+BED-1334,Pediatric,Occupied,PT-13184,2026-08-17 07:43:44
+BED-1335,Pediatric,Occupied,PT-14328,2026-08-16 17:47:14
+BED-1336,Pediatric,Occupied,PT-13168,2026-08-18 21:59:52
+BED-1337,Pediatric,Occupied,PT-13245,2026-08-18 01:11:03
+BED-1338,Pediatric,Available,,2026-08-22 02:28:10
+BED-1339,Pediatric,Occupied,PT-10339,2026-08-23 08:17:39
+BED-1340,Pediatric,Available,,2026-08-22 18:18:14
+BED-1341,Pediatric,Occupied,PT-10488,2026-08-19 14:13:35
+BED-1342,Pediatric,Under Maintenance,,2026-08-21 08:29:26
+BED-1343,Pediatric,Occupied,PT-5182,2026-08-19 17:34:03
+BED-1344,Pediatric,Under Maintenance,,2026-08-19 14:28:22
+BED-1345,Pediatric,Available,,2026-08-17 14:59:47
+BED-1346,Pediatric,Available,,2026-08-21 19:34:37
+BED-1347,Pediatric,Occupied,PT-5905,2026-08-22 14:20:32
+BED-1348,Pediatric,Occupied,PT-9789,2026-08-22 22:09:03
+BED-1349,Pediatric,Occupied,PT-9545,2026-08-20 13:45:02
+BED-1350,Pediatric,Available,,2026-08-22 17:17:31
+BED-1351,Pediatric,Occupied,PT-10960,2026-08-19 20:40:11
+BED-1352,Pediatric,Under Maintenance,,2026-08-19 18:57:18
+BED-1353,Pediatric,Available,,2026-08-19 20:43:11
+BED-1354,Pediatric,Occupied,PT-5759,2026-08-17 03:02:12
+BED-1355,Pediatric,Under Maintenance,,2026-08-23 07:20:45
+BED-1356,Pediatric,Available,,2026-08-23 10:35:29
+BED-1357,Pediatric,Under Maintenance,,2026-08-23 13:40:10
+BED-1358,Pediatric,Occupied,PT-12269,2026-08-20 10:47:17
+BED-1359,Pediatric,Occupied,PT-7301,2026-08-19 05:42:28
+BED-1360,ICU,Occupied,PT-14840,2026-08-16 21:53:01
+BED-1361,ICU,Occupied,PT-11549,2026-08-19 01:07:56
+BED-1362,ICU,Available,,2026-08-18 21:08:17
+BED-1363,ICU,Under Maintenance,,2026-08-17 00:42:53
+BED-1364,ICU,Available,,2026-08-22 05:13:52
+BED-1365,ICU,Available,,2026-08-21 03:11:03
+BED-1366,ICU,Available,,2026-08-21 21:49:02
+BED-1367,ICU,Available,,2026-08-16 16:23:08
+BED-1368,ICU,Occupied,PT-7573,2026-08-20 18:36:07
+BED-1369,ICU,Occupied,PT-14990,2026-08-18 11:54:43
+BED-1370,ICU,Occupied,PT-5445,2026-08-21 18:12:31
+BED-1371,ICU,Occupied,PT-6338,2026-08-17 06:39:35
+BED-1372,ICU,Occupied,PT-5282,2026-08-18 03:04:53
+BED-1373,ICU,Occupied,PT-12232,2026-08-21 00:13:51
+BED-1374,ICU,Occupied,PT-8789,2026-08-18 13:12:17
+BED-1375,ICU,Occupied,PT-7981,2026-08-19 03:07:07
+BED-1376,ICU,Available,,2026-08-17 01:54:21
+BED-1377,ICU,Occupied,PT-7417,2026-08-18 04:52:02
+BED-1378,ICU,Occupied,PT-11631,2026-08-21 12:03:25
+BED-1379,ICU,Occupied,PT-10827,2026-08-21 05:54:32
+BED-1380,Oncology,Available,,2026-08-18 23:56:49
+BED-1381,Oncology,Under Maintenance,,2026-08-19 06:40:43
+BED-1382,Oncology,Occupied,PT-7420,2026-08-16 21:07:09
+BED-1383,Oncology,Occupied,PT-12350,2026-08-18 15:00:16
+BED-1384,Oncology,Occupied,PT-13467,2026-08-19 14:31:34
+BED-1385,Oncology,Under Maintenance,,2026-08-20 23:14:40
+BED-1386,Oncology,Available,,2026-08-21 11:17:02
+BED-1387,Oncology,Occupied,PT-7594,2026-08-20 21:36:56
+BED-1388,NICU,Occupied,PT-10662,2026-08-19 20:01:00
+BED-1389,NICU,Occupied,PT-9745,2026-08-16 15:50:36
+BED-1390,NICU,Occupied,PT-11321,2026-08-19 14:13:00
+BED-1391,NICU,Occupied,PT-8892,2026-08-16 23:27:20
+BED-1392,NICU,Available,,2026-08-21 23:06:51
+BED-1393,NICU,Available,,2026-08-18 01:05:02
+BED-1394,NICU,Under Maintenance,,2026-08-20 21:47:20
+BED-1395,NICU,Occupied,PT-5257,2026-08-19 23:03:28
+BED-1396,NICU,Available,,2026-08-17 08:25:04
+BED-1397,NICU,Occupied,PT-10448,2026-08-18 19:20:07
+BED-1398,NICU,Under Maintenance,,2026-08-22 05:44:20
+BED-1399,NICU,Available,,2026-08-19 03:37:50

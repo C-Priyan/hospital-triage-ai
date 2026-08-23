@@ -3,6 +3,7 @@ from google import genai
 import streamlit as st
 import pyexasol
 import ssl
+from datetime import datetime
 
 # --- Page Config (Must be first) ---
 st.set_page_config(page_title="Hospital Triage AI", layout="wide")
@@ -13,7 +14,7 @@ def get_db_connection():
     db = pyexasol.connect(
         dsn='127.0.0.1:8563',
         user='sys',
-        password='EXASSOL_PASSWORD',
+        password='XEASTEdqoDgATutJO0qHVnAK',
         websocket_sslopt={'cert_reqs': ssl.CERT_NONE}
     )
     return db
@@ -119,6 +120,17 @@ elif st.session_state.current_page == "Admin Operations":
             selected_patient = st.selectbox("Search Patient ID:", patient_ids)
             active_patient_id = selected_patient
 
+            # --- NEW GOVERNANCE CHECK: Is patient already admitted? ---
+            currently_admitted = query_to_df(f"""SELECT * FROM STARTER_KIT.BEDS WHERE "Patient_ID" = '{active_patient_id}' AND "Status" = 'Occupied'""")
+            
+            if not currently_admitted.empty:
+                current_ward = currently_admitted.iloc[0]["Ward_Type"]
+                current_bed = currently_admitted.iloc[0]["Bed_ID"]
+                st.error(f"🚨 GOVERNANCE ALERT: Patient {active_patient_id} is already admitted to {current_bed} in the {current_ward}.")
+                st.warning("Cannot initiate new triage workflow until the patient is discharged.")
+                st.stop() # Halts the app so the AI chat doesn't even load
+            # ---------------------------------------------------------
+
             patient_info = patients_df[patients_df["Patient_ID"] == selected_patient].iloc[0]
             patient_name = patient_info["Name"]
             patient_age = patient_info["Age"]
@@ -186,55 +198,67 @@ elif st.session_state.current_page == "Admin Operations":
                     response = client.models.generate_content(
                         model="gemini-3.5-flash", contents=ai_prompt
                     )
-
-                    with st.chat_message("assistant"):
-                        st.write(response.text)
-
-                        # Get Live Bed Data
-                        beds_df = query_to_df("SELECT * FROM STARTER_KIT.BEDS")
-                        
-                        # SAVE NEW PATIENT DIRECTLY TO EXASOL DB
-                        if patient_type == "New Patient (Walk-in)":
-                            active_patient_id = f"PT-{5000 + len(patients_df)}"
-                            insert_sql = f"""
-                                INSERT INTO STARTER_KIT.PATIENT_HISTORY 
-                                ("Patient_ID", "Name", "Age", "Gender", "Chronic_Conditions", "Recent_Surgeries")
-                                VALUES ('{active_patient_id}', '{patient_name}', {patient_age}, '{patient_gender}', '{patient_chronic}', 'None')
-                            """
-                            db.execute(insert_sql)
-                            st.info(f"💾 Patient registered directly into Exasol DB as {active_patient_id}.")
-
-                        # WARD MATCHING
-                        ward_options = ["General Ward", "ICU", "NICU", "Maternity", "Pediatric", "Oncology", "Emergency"]
-                        recommended_ward = next((ward for ward in ward_options if ward.lower() in response.text.lower()), None)
-
-                        if recommended_ward:
-                            available_beds = beds_df[
-                                (beds_df["Ward_Type"] == recommended_ward) & 
-                                (beds_df["Status"] == "Available")
-                            ]
-
-                            if not available_beds.empty:
-                                assigned_bed = available_beds.iloc[0]["Bed_ID"]
-                                st.success(f"🛏️ **Bed Allocated:** {assigned_bed} in the {recommended_ward}")
-                                st.info("Governance Check: Decision logged securely.")
-
-                                # UPDATE EXASOL BED INVENTORY AND LINK PATIENT
-                                update_bed_sql = f"""
-                                    UPDATE STARTER_KIT.BEDS 
-                                    SET "Status" = 'Occupied', "Patient_ID" = '{active_patient_id}' 
-                                    WHERE "Bed_ID" = '{assigned_bed}'
-                                """
-                                db.execute(update_bed_sql)
-                            else:
-                                st.error(f"🚨 CAPACITY ALERT: No available beds in the {recommended_ward}!")
-                                st.warning("Governance Protocol: Patient requires immediate hospital transfer or overflow triage.")
-                        else:
-                            st.warning("Could not automatically detect the ward type from the AI response. Manual override required.")
-                
+                    ai_response_text = response.text
+                    
                 except Exception as e:
-                    # If Google's servers crash, the app stays alive and shows this clean message
-                    st.error("⚠️ The AI Triage system is currently experiencing high network traffic. Please wait a moment and try again.")
+                    # GOVERNANCE FAILSAFE PROTOCOL: Fallback if cloud AI fails
+                    st.warning("🚨 GOVERNANCE FAILSAFE ACTIVATED: AI service unreachable. Engaging deterministic fallback routing.")
+                    if triage_level == "🔴 Emergency (Immediate)":
+                        ai_response_text = "Failsafe active: Routing directly to Emergency ward due to critical triage status."
+                    else:
+                        ai_response_text = "Failsafe active: Routing to General Ward for standard administrative review."
+
+                with st.chat_message("assistant"):
+                    st.write(ai_response_text)
+
+                    # Get Live Bed Data FIRST
+                    beds_df = query_to_df("SELECT * FROM STARTER_KIT.BEDS")
+                    
+                    # WARD MATCHING
+                    ward_options = ["General Ward", "ICU", "NICU", "Maternity", "Pediatric", "Oncology", "Emergency"]
+                    recommended_ward = next((ward for ward in ward_options if ward.lower() in ai_response_text.lower()), None)
+
+                    if recommended_ward:
+                        # Check for available beds BEFORE registering the patient
+                        available_beds = beds_df[
+                            (beds_df["Ward_Type"] == recommended_ward) & 
+                            (beds_df["Status"] == "Available")
+                        ]
+
+                        if not available_beds.empty:
+                            # 1. BED IS AVAILABLE -> NOW REGISTER THE PATIENT
+                            if patient_type == "New Patient (Walk-in)":
+                                active_patient_id = f"PT-{5000 + len(patients_df)}"
+                                insert_sql = f"""
+                                    INSERT INTO STARTER_KIT.PATIENT_HISTORY 
+                                    ("Patient_ID", "Name", "Age", "Gender", "Chronic_Conditions", "Recent_Surgeries")
+                                    VALUES ('{active_patient_id}', '{patient_name}', {patient_age}, '{patient_gender}', '{patient_chronic}', 'None')
+                                """
+                                db.execute(insert_sql)
+                                st.info(f"💾 Patient registered directly into Exasol DB as {active_patient_id}.")
+
+                            # 2. ALLOCATE THE BED
+                            assigned_bed = available_beds.iloc[0]["Bed_ID"]
+                            st.success(f"🛏️ **Bed Allocated:** {assigned_bed} in the {recommended_ward}")
+                            st.info("Governance Check: Decision logged securely.")
+
+                            # 3. UPDATE EXASOL BED INVENTORY AND LINK PATIENT (WITH TIMESTAMP)
+                            current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                            update_bed_sql = f"""
+                                UPDATE STARTER_KIT.BEDS 
+                                SET "Status" = 'Occupied', 
+                                    "Patient_ID" = '{active_patient_id}',
+                                    "Admission_Time" = '{current_timestamp}'
+                                WHERE "Bed_ID" = '{assigned_bed}'
+                            """
+                            db.execute(update_bed_sql)
+                            
+                        else:
+                            # NO BEDS AVAILABLE -> DO NOT REGISTER PATIENT
+                            st.error(f"🚨 CAPACITY ALERT: No available beds in the {recommended_ward}!")
+                            st.warning("Governance Protocol: Patient requires immediate hospital transfer or overflow triage. Patient record was NOT saved to the database.")
+                    else:
+                        st.warning("Could not automatically detect the ward type from the AI response. Manual override required.")
 
     # ------------------------------------------
     # MODULE B: DISCHARGE PATIENT
@@ -293,10 +317,13 @@ elif st.session_state.current_page == "Admin Operations":
                             """
                             db.execute(update_surgery_sql)
                                 
-                            # 2. Free up the bed and remove the patient link in Exasol
+                            # 2. Free up the bed and remove the patient link in Exasol (WITH TIMESTAMP)
+                            current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                             free_bed_sql = f"""
                                 UPDATE STARTER_KIT.BEDS 
-                                SET "Status" = 'Available', "Patient_ID" = NULL 
+                                SET "Status" = 'Available', 
+                                    "Patient_ID" = NULL,
+                                    "Admission_Time" = '{current_timestamp}'
                                 WHERE "Bed_ID" = '{bed_to_free}'
                             """
                             db.execute(free_bed_sql)

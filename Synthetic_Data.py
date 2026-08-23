@@ -1,6 +1,7 @@
 import random
 import pandas as pd
 from faker import Faker
+from datetime import datetime
 
 fake = Faker()
 Faker.seed(42)
@@ -8,6 +9,10 @@ random.seed(42)
 
 num_beds = 400
 num_patients = 10000
+
+# Generate a random timestamp from the past 7 days to simulate historical activity
+random_time = fake.date_time_between(start_date='-7d', end_date='now')
+formatted_time = random_time.strftime("%Y-%m-%d %H:%M:%S")
 
 # ==========================================
 # 1. PATIENT DATASET (Generated First)
@@ -33,7 +38,7 @@ for i in range(num_patients):
     else:
         patient_name = fake.name() 
         
-    # 3. Append the record (Renamed to Recent_Surgeries)
+    # 3. Append the record
     patient_data.append({
         "Patient_ID": f"PT-{5000 + i}",
         "Name": patient_name,
@@ -44,31 +49,49 @@ for i in range(num_patients):
     })
 
 pd.DataFrame(patient_data).to_csv("patient_history.csv", index=False, lineterminator='\n')
+
 # ==========================================
-# 2. BEDS DATASET (With Patient_ID linking)
+# 2. BEDS DATASET (Weighted Distribution & Linking)
 # ==========================================
-ward_options = ["General Ward", "ICU", "NICU", "Maternity", "Pediatric", "Oncology", "Emergency"]
+# Realistic ward capacity weights (Total sum = 1.0)
+ward_weights = {
+    "General Ward": 0.45,  # 180 beds
+    "Emergency": 0.20,     # 80 beds
+    "Maternity": 0.15,     # 60 beds
+    "Pediatric": 0.10,     # 40 beds
+    "ICU": 0.05,           # 20 beds
+    "Oncology": 0.02,      # 8 beds
+    "NICU": 0.03           # 12 beds
+}
+
 status_options = ["Available", "Occupied", "Under Maintenance"]
 status_weights = [0.35, 0.60, 0.05]
 
 # Grab a list of unique patient IDs for the occupied beds
 all_patient_ids = [p["Patient_ID"] for p in patient_data]
-# Create an iterator to pull unique patients safely
-occupants = iter(random.sample(all_patient_ids, num_beds)) 
+occupants = iter(random.sample(all_patient_ids, num_beds))
 
 beds_data = []
-for i in range(num_beds):
-    status = random.choices(status_options, weights=status_weights)[0]
+bed_counter = 0
+
+for ward, weight in ward_weights.items():
+    ward_bed_count = int(num_beds * weight)
     
-    # If occupied, pull a patient ID. Otherwise, leave it as None.
-    assigned_patient = next(occupants) if status == "Occupied" else None
-    
-    beds_data.append({
-        "Bed_ID": f"BED-{1000 + i}",
-        "Ward_Type": random.choice(ward_options),
-        "Status": status,
-        "Patient_ID": assigned_patient
-    })
+    for _ in range(ward_bed_count):
+        # Generate a random timestamp from the past 7 days to simulate historical activity
+        random_time = fake.date_time_between(start_date='-7d', end_date='now')
+        formatted_time = random_time.strftime("%Y-%m-%d %H:%M:%S")
+        status = random.choices(status_options, weights=status_weights)[0]
+        assigned_patient = next(occupants) if status == "Occupied" else None
+        
+        beds_data.append({
+            "Bed_ID": f"BED-{1000 + bed_counter}",
+            "Ward_Type": ward,
+            "Status": status,
+            "Patient_ID": assigned_patient,
+            "Admission_Time": formatted_time
+        })
+        bed_counter += 1
 
 pd.DataFrame(beds_data).to_csv("beds.csv", index=False, lineterminator='\n')
-print("Updated patient_history.csv and beds.csv generated successfully!")
+print("Updated patient_history.csv and beds.csv generated successfully with weighted ward allocations!")
